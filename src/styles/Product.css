@@ -29,6 +29,12 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    overflow:hidden;
+}
+
+.product > button:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
 }
 
 .product__price {
