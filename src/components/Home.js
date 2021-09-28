@@ -3,14 +3,48 @@ import React from 'react'
 import '../styles/Home.css'; //suena estupido pero recuerda que el css se importa si no como si fuera una funcion
 import Product from './Product';
 
+
 function Home() {
+
     return (
     <div className="home">
         <div className="home__container">
-            <img
-            className="home__image"
-            src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-            alt=""/>
+            <div className="slider">
+                <ul>
+                    <li><img
+                        className="home__image"
+                        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+                        alt=""/></li>
+                    <li><img
+                        className="home__image"
+                        src="https://casalsonline.es/wp-content/uploads/2020/05/imagen-post-publicidad-amazon.png"
+                        alt=""/></li>
+                    <li><img
+                        className="home__image"
+                        src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg"
+                        alt=""/></li>
+                    <li><img
+                        className="home__image"
+                        src="https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg"
+                        alt=""/></li>
+                </ul>
+            </div>
+                    {/* <img
+                        className="home__image"
+                        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+                        alt=""/>
+                    <img
+                        className="home__image"
+                        src="https://casalsonline.es/wp-content/uploads/2020/05/imagen-post-publicidad-amazon.png"
+                        alt=""/>
+                    <img
+                        className="home__image"
+                        src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg"
+                        alt=""/>
+                    <img
+                        className="home__image"
+                        src="https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg"
+                        alt=""/> */}
             <div className="home__row">
                 <Product
                     id="1"
